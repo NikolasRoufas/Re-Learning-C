@@ -1,6 +1,9 @@
 # Re-Learning-C Data Structures and Algorithms
 
-This repository contains implementations of fundamental **data structures** and **algorithms** in C. It is designed for beginners and intermediates who want to strengthen their coding skills and problem-solving abilities.
-
-
-![True](front.jpg)
+Improvements
+- Pass the array as const in findMax
+- Since findMax does not modify the array, marking it as const improves code safety.
+- Add Edge Case Handling
+- Ensure findMax does not operate on an empty array (though your tests already avoid this).
+- Better Formatting and Readability
+- Use consistent spacing for readability.
